@@ -1,0 +1,11 @@
+# SDET Automation Framework
+
+An enterprise-grade test automation framework built using Java, Selenium, TestNG, Maven, REST Assured, PostgreSQL, Docker and GitHub Actions.
+
+## Tech Stack
+
+- Java
+- Selenium
+- TestNG
+- Maven
+- Git
