@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+
+    <test name="Smoke Tests">
+
+        <classes>
+            <class name="com.nandini.framework.tests.ConfigReaderTest"/>
+        </classes>
+
+    </test>
+
+</suite>
