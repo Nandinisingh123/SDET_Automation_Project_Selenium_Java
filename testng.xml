@@ -5,6 +5,7 @@
 
         <classes>
             <class name="com.nandini.framework.tests.ConfigReaderTest"/>
+            <class name="com.nandini.framework.tests.HomePageTest"/>
         </classes>
 
     </test>
