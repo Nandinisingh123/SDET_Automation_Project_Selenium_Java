@@ -5,29 +5,36 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginPage extends BasePage {
 
-    private final By loginLink = By.xpath("//a[contains(text(),'Signup / Login')]");
-    private final By emailField = By.xpath("//input[@data-qa='login-email']");
-    private final By passwordField = By.xpath("//input[@data-qa='login-password']");
-    private final By loginButton = By.xpath("//button[@data-qa='login-button']");
+    private final By loginLink =
+            By.xpath("//a[contains(text(),'Signup / Login')]");
+
+    private final By emailField =
+            By.xpath("//input[@data-qa='login-email']");
+
+    private final By passwordField =
+            By.xpath("//input[@data-qa='login-password']");
+
+    private final By loginButton =
+            By.xpath("//button[@data-qa='login-button']");
 
     public LoginPage(WebDriver driver) {
         super(driver);
     }
 
     public void clickLoginLink() {
-        click(driver.findElement(loginLink));
+        click(loginLink);
     }
 
     public void enterEmail(String email) {
-        type(driver.findElement(emailField), email);
+        type(emailField, email);
     }
 
     public void enterPassword(String password) {
-        type(driver.findElement(passwordField), password);
+        type(passwordField, password);
     }
 
     public void clickLoginButton() {
-        click(driver.findElement(loginButton));
+        click(loginButton);
     }
 
     public void login(String email, String password) {
